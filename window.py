@@ -18,7 +18,7 @@ class Window:
     def wait_for_close(self):
         self.is_running = True
         while self.is_running:
-        self.redraw()
+            self.redraw()
 
     def close(self):
         self.is_running = False
