@@ -1,5 +1,5 @@
 from window import Window
-from drawables import Point, Line
+from graphics import Point, Line
 
 def main():
     # Create Window
